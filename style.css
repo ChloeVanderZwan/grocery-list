@@ -1,0 +1,27 @@
+table {
+  width: 25%;
+  border-collapse: collapse;
+  border: 1px dotted black;
+}
+
+th,
+td {
+  border: 1px dotted black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e9b8da;
+  font-weight: bold;
+}
+}
+img {
+    width: 100px; /* Adjust image size */
+    height: 100px;
+}
+.container {
+    display: flex;
+    gap: 20px; /* Adds space between image and table */
+    align-items: center; /* Aligns them vertically */
+}
